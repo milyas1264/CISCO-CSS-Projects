@@ -80,3 +80,9 @@ p {
 #header h1 {
     color: orange !important; /* Overridden by !important */
 }
+//links
+#links a{
+    text-decoration: none;
+    color: white;
+    background-color: paleturquoise;
+}
