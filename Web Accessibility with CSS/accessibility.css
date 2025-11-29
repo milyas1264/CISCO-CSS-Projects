@@ -12,10 +12,6 @@ header {
   text-align: center;
 }
 
-nav{
-  display: flex;
-  justify-content: space-around;
-}
 .navigation-menu {
   list-style: none;
   padding: 10px;
