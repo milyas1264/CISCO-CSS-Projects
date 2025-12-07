@@ -59,30 +59,19 @@ footer {
     text-align: center;
     padding: 10px 20px;
 }
-//all links styles
-#all-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #39333a;
-    padding: 20px;
-    height: 20px;
-}
-a {
+
+/* New styles for back to home link */
+#bkto { 
+    display: inline-block;
+    width: 500px;
+    margin: 20px;
+    margin-left: 500px;
+    padding: 10px 15px;
+    background-color: #37eeb1;
+    color: rgb(73, 68, 68);
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: larger;
-    color: white;
-}
-a:hover {
-    color: #007BFF;
-    text-decoration: underline;
-}
-#pl {
     text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: darkseagreen;
+    border-radius: 5px;
+    border-bottom: #336088 5px solid;
+    
 }
-#project-links{border: 2px solid rgb(194, 191, 186);}
