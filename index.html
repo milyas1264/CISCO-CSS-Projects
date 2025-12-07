@@ -6,10 +6,32 @@
     <title>My Personal Blog</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        p {
-            color: slategray;
-            font-size: 16px;
+        #all-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #39333a;
+            padding: 20px;
+            height: 20px;
         }
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: larger;
+            color: white;
+        }
+        a:hover {
+            color: #007BFF;
+            text-decoration: underline;
+        }
+        #pl {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: darkseagreen;
+        }
+        #project-links{border: 2px solid rgb(194, 191, 186);}
     </style>
 </head>
 <body>
@@ -24,25 +46,27 @@
         </section>
         <section>
             <h2>My Interests</h2>
-            <p>I love <span class="highlight">coding,</span> reading, and hiking.</p>
+            <p>I love <span class="highlight">coding,</span> reading, and learning.</p>
         </section>
     </main>
     <footer>
         <p>Contact: <a href="mailto:">info@myblog.com</a></p>
     </footer>
-    <div id="links">
-        <div>
-            <a href="index.html" class="button">Home</a>
-        </div>
-        <div>
-            <a href="index.html" class="button">My Portfolio</a>
-        </div>
-        <div>
-            <a href="index.html" class="button">Product Showcase</a>
-        </div>
-        <div>
-            <a href="index.html" class="button">Tech Blog</a>
-        </div>
+    <br><hr>
+
+    <div id="project-links"> 
+        <h2 id="pl">All Project Links</h2>
+    <div id="all-links">
+        <a href="./Animation and transition/anim trans.html">Animation and transiton</a>
+        <a href="./Bootstrep web/index.html">Bootstrep</a>
+        <a href="./Comprehasive web disign/comprehen.html">Comprehasive webdesign</a>
+        <a href="./Myportfolio web/portfolio.html">My Portfolio </a>
+        <a href="./Portfolio grid and flex/portfolioflex.html">Portfolio grid and flex</a>  
+        <a href="./ProductShowcase/product.html">Products Showcase</a>
+        <a href="./Sass Essentials/sass.html">Sass Essential</a>
+        <a href="./Tech Blog/techblog.html">Tech Blog</a>
+        <a href="./Portfolio grid and flex/portfolioflex.html">Web accessibility</a>
+    </div>
     </div>
 </body>
 </html>
