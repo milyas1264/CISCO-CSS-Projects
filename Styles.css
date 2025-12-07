@@ -80,13 +80,13 @@ p {
 #header h1 {
     color: orange !important; /* Overridden by !important */
 }
-//links
+/* //links */
 
 #all-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #39333a;
+    background-color: #713780;
     padding: 20px;
     height: 20px;
 }
